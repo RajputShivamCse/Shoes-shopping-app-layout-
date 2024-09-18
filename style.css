@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:4px;
+  font-style: normal;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  height:100vh ;
+  
+}
+
+#container{
+    width:auto;
+    height:auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   box-shadow: none;
+  
+    
+    
+}
+
+
+
+
+
+  div{
+      width:250px;
+      height: 310px;
+      background:white;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      border-radius: 25px;
+      position: relative;
+      border: 1px solid black;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2),0 0 20px;
+      } 
+ 
+  
+  
+  img{
+      width:150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 10px;
+      
+      
+  }
+   
+   
+   p{
+       background: ;
+       position: absolute;
+       top:50%;
+      
+   }
+   
+   
+   
+   p.price{
+       margin-top: 50px;
+       border: 1px solid grey;
+       border-radius:8px;
+     
+     
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+     p.buy{
+       margin-top:80px;
+       margin-right:100px;
+       border: 1px solid black;
+       border-radius:5px;
+       font-size: 18px;
+       background:red;
+     
+   }
+   p.buy:hover{
+       transform:scale(1.1);
+       color: white;
+       background: #65ff00;
+   }
+
+
+
+
+
+p.cart{
+       margin-top:80px;
+       margin-left:100px;
+       border: 1px solid black;
+       border-radius:5px;
+       background:blue ;
+       color:white;
+       width: 60px;
+       height: 22px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     
+   }
+   
+   
+   p.cart:hover {
+   color: white; 
+   background: #00ffea;
+   transform: scale(1.1);
