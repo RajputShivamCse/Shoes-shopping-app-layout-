@@ -1,4 +1,4 @@
 Hi 
-This my firt try of html and css learning concept.
+This my first try of HTML and CSS learning concept.
 <br>
-<p style="font-color:red;">I made like shoping layout of shoes with buy and cart option.</p>
+<p style="font-color:red;">I design a shoping layout of shoes with buy and cart option.</p>
